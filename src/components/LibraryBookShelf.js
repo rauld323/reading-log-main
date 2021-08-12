@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import './LibraryBookShelf.css';
-import LibraryBook from './LibraryBook';
+import LibraryList from './LibraryList';
 import PageFilter from './PageFilter';
 
 const LibraryBookShelf = props => {
@@ -21,18 +21,7 @@ const LibraryBookShelf = props => {
 				selected={filteredYear}
 				onChangeFilter={filterChangeHandler}
 			/>
-
-			<div className='book_shelf'>
-				{filteredBooks.map(book => (
-					<LibraryBook
-						key={book.id}
-						title={book.title}
-						pages={book.pages}
-						date={book.date}
-						author={book.author}
-					/>
-				))}
-			</div>
+			<LibraryList items={filteredBooks} />
 		</div>
 	);
 };

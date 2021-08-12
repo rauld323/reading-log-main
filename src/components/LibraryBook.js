@@ -4,7 +4,7 @@ import React from 'react';
 
 const LibraryBook = props => {
 	return (
-		<div>
+		<li>
 			<div className='book_card'>
 				<BookDate date={props.date} />
 				<div className='book_info'>
@@ -13,7 +13,7 @@ const LibraryBook = props => {
 					<h2>pages {props.pages}</h2>
 				</div>
 			</div>
-		</div>
+		</li>
 	);
 };
 

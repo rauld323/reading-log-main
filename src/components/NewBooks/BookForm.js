@@ -104,6 +104,13 @@ const BookForm = props => {
 					</div>
 				</div>
 				<div className='new-book-actions'>
+					<button
+						type='button'
+						onClick={
+							props.onCancel
+						}>
+						Cancel
+					</button>
 					<button type='submit'>
 						Add New Book
 					</button>
