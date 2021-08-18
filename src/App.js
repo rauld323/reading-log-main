@@ -7,28 +7,28 @@ const initialBooks = [
 	{
 		id: 'e1',
 		title: 'Devil in the White City',
-		pages: 447,
-		date: new Date(2021, 4, 25),
+		pages: 127,
+		date: new Date(2021, 5, 25),
 		author: 'Erik Larson'
 	},
 	{
 		id: 'e2',
 		title: 'Devil in the White City',
-		pages: 447,
-		date: new Date(2021, 4, 25),
+		pages: 237,
+		date: new Date(2021, 1, 25),
 		author: 'Erik Larson'
 	},
 	{
 		id: 'e3',
 		title: 'Devil in the White City',
 		pages: 447,
-		date: new Date(2021, 4, 25),
+		date: new Date(2021, 11, 25),
 		author: 'Erik Larson'
 	},
 	{
 		id: 'e4',
 		title: 'Devil in the White City',
-		pages: 447,
+		pages: 20,
 		date: new Date(2021, 4, 25),
 		author: 'Erik Larson'
 	}
